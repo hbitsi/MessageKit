@@ -29,7 +29,7 @@ import UIKit
 open class MessageContentCell: MessageCollectionViewCell {
 
     /// The image view displaying the avatar.
-    open var avatarView = AvatarView()
+    open var avatarView = Avatar2View()
 
     /// The container used for styling and holding the message's content view.
     open var messageContainerView: MessageContainerView = {
