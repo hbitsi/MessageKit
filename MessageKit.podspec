@@ -12,12 +12,12 @@ Pod::Spec.new do |s|
    s.source_files = 'Sources/**/*.swift'
 
    s.pod_target_xcconfig = {
-      "SWIFT_VERSION" => "4.2",
+      "SWIFT_VERSION" => "5.3",
    }
 
    s.swift_version = '5.3'
 
-   s.ios.deployment_target = '12.0'
+   s.ios.deployment_target = '13.0'
    s.ios.resource_bundle = { 'MessageKitAssets' => 'Sources/Assets.xcassets' }
 
    s.requires_arc = true
