@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
    s.swift_version = '5.3'
 
    s.ios.deployment_target = '13.0'
-   s.ios.resource_bundle = { 'MessageKit' => 'Sources/Assets.xcassets' }
+   s.ios.resources = 'Sources/Assets.xcassets'
 
    s.requires_arc = true
 
